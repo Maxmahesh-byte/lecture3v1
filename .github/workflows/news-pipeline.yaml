@@ -32,7 +32,7 @@ jobs:
 
       - name: Run pipeline
         env:
-          avapi: ${{ secrets.avapi }}
+          AV_API_KEY: ${{ secrets.AV_API_KEY }}
           TICKERS: AAPL
           NEWS_LIMIT: 15
           LOOKBACK_DAYS: 7
